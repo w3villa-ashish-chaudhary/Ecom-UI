@@ -1,41 +1,38 @@
-# E-Commerce Featured Category UI
+# E-Commerce Page Design
 
-A responsive web design project replicating a modern e-commerce "Featured Category" layout. This project demonstrates the use of **CSS Grid** and **Flexbox** to build complex product listings, sidebars, and brand sections without relying on external CSS frameworks.
+This is a practice project where I recreated a shopping page design using HTML and CSS. The goal was to make it look exactly like the design image.
 
-![Project Preview](./preview.png)
-*(Note: Replace the image above with a screenshot of your actual result)*
+🔗 **Live Demo:** [https://ecom-ui-nu.vercel.app/](https://ecom-ui-nu.vercel.app/)
 
-## 📖 Overview
+## 📄 About the Project
 
-The goal of this project was to convert a design mock-up (image) into pixel-perfect code. The layout features a two-column structure with a filter sidebar on the left and a product grid on the right, followed by a brand logo section at the footer.
+I built this layout to practice making websites that look good on both laptops and phones. It has a sidebar on the left, products on the right, and a brand logo section at the bottom.
 
-### Key Objectives
-- Replicate visual hierarchy and spacing from the source design.
-- Implement a responsive layout that adapts to tablet and mobile screens.
-- Use semantic HTML5 markup.
+**What I focused on:**
+- Making the layout match the original design.
+- Making sure it works on mobile screens (Responsive).
+- Writing clean code without using heavy libraries like Bootstrap.
 
-## 🚀 Features
+## ✨ Features
 
-- **Responsive Layout:** Adjusts from a multi-column desktop view to a single-column mobile view using Media Queries.
-- **Product Cards:**
-  - Custom "New", "Hot", and "Sale" badges using absolute positioning.
-  - Hover effects on product images and "Add to Cart" buttons.
-  - Price and Wishlist/Compare icon alignment.
-- **Sidebar Navigation:** Styled category list with a promotional image area.
-- **Brand Grid:** A neat grid layout for partner logos at the bottom.
-- **Pure CSS:** No Bootstrap or Tailwind used—custom styling only.
+- **Mobile Friendly:** The layout changes from side-by-side to a single column on smaller screens.
+- **Product Cards:** Includes "New" and "Hot" badges on the images.
+- **Hover Effects:** Buttons and links change color when you move your mouse over them.
+- **Pure CSS:** I used Flexbox and Grid to arrange everything.
 
-## 🛠️ Technologies Used
+## 🛠️ Tools Used
 
-- **HTML5:** Semantic structure.
-- **CSS3:** Custom properties (variables), Flexbox, CSS Grid.
-- **Google Fonts:** Roboto font family.
-- **Placehold.co:** Used for placeholder images during development.
+- **HTML** (For the structure)
+- **CSS** (For the styling and layout)
+- **Google Fonts** (To make the text look good)
 
-## 📂 Project Structure
+## 📂 Project Files
 
-```text
-├── index.html      # Main HTML structure
-├── styles.css      # All styling logic
-├── README.md       # Project documentation
-└── assets/         # (Optional) Folder for images/icons
+- `index.html` - The main file with the page content.
+- `styles.css` - The file with all the colors and layout rules.
+
+## 🚀 How to Run Locally
+
+1. **Download or Clone** this repository.
+   ```bash
+   git clone [https://github.com/your-username/ecommerce-category-ui.git](https://github.com/your-username/ecommerce-category-ui.git)
