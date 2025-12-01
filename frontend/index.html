@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flexbox Navbar</title>
+    <title>Responsive Journal</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -13,8 +13,25 @@
       href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
   </head>
   <body>
+    <div class="mobile-top-bar">
+      <div class="mobile-links-left">
+        <a href="#"><i class="fa-solid fa-user"></i> Login</a>
+        <a href="#"><i class="fa-solid fa-user-plus"></i> Register</a>
+      </div>
+      <div class="mobile-links-right">
+        <a href="#">$ US Dollar <i class="fa-solid fa-caret-down"></i></a>
+        <a href="#"
+          ><i class="fa-solid fa-flag-usa"></i> English
+          <i class="fa-solid fa-caret-down"></i
+        ></a>
+      </div>
+    </div>
 
     <nav class="navbar">
       <div class="nav-left">
@@ -23,12 +40,10 @@
         <a href="#"><i class="fa-solid fa-envelope"></i> Contact</a>
         <a href="#"><i class="fa-solid fa-circle-question"></i> FAQ</a>
       </div>
-
       <div class="nav-center">
         <a href="#"><i class="fa-solid fa-globe"></i> English</a>
         <a href="#"><i class="fa-solid fa-dollar-sign"></i> US Dollar</a>
       </div>
-
       <div class="nav-right">
         <a href="#"><i class="fa-solid fa-ellipsis-h"></i> More Menus</a>
         <a href="#"><i class="fa-solid fa-truck-fast"></i> Delivery</a>
@@ -46,10 +61,24 @@
       </div>
 
       <div class="nav2-right">
-        <a href="#" class="highlight2"><i class="fa-solid fa-user"></i> Login</a>
-        <a href="#" class="highlight2"><i class="fa-solid fa-user-plus"></i> Register</a>
-        <a href="#" class="highlight2"><i class="fa-solid fa-heart"></i> Wishlist</a>
-        <a href="#" class="highlight2"><i class="fa-solid fa-scale-balanced"></i> Compare</a>
+        <a href="#" class="highlight2"
+          ><i class="fa-solid fa-user"></i> Login</a
+        >
+        <a href="#" class="highlight2"
+          ><i class="fa-solid fa-user-plus"></i> Register</a
+        >
+        <a href="#" class="highlight2"
+          ><i class="fa-solid fa-heart"></i> Wishlist</a
+        >
+        <a href="#" class="highlight2"
+          ><i class="fa-solid fa-scale-balanced"></i> Compare</a
+        >
+      </div>
+
+      <div class="mobile-icons">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
       </div>
     </div>
 
@@ -61,7 +90,6 @@
         <a href="#">MEGA MENU</a>
         <a href="#">FULLWIDTH</a>
       </div>
-
       <div class="nav3-right">
         <i class="fa fa-phone"></i> <a href="#">1.800.555.6789</a>
         <a href="#" class="highlight1" style="color: black">BLOG</a>
@@ -71,18 +99,22 @@
     <div class="hero-section wrapper">
       <div class="hero-left">
         <p class="mobile-left">MOBILE</p>
-        <p class="hero-left-text">Best mobile options <br />at any resolution</p>
+        <p class="hero-left-text">
+          Best mobile options <br />at any resolution
+        </p>
         <button class="hero-left-button">Learn More</button>
       </div>
 
       <div class="hero-section-right">
         <div class="hero-right" id="card-wearables">
-          <span class="card-category" style="color: #231f82;">WEARABLES</span>
-          <p class="hero-right-text">Intelligent <br />& Durable <br />Design</p>
+          <span class="card-category" style="color: #390cd7">WEARABLES</span>
+          <p class="hero-right-text">
+            Intelligent <br />& Durable <br />Design
+          </p>
         </div>
 
         <div class="hero-right" id="card-computers">
-          <span class="card-category" style="color: #231f82">COMPUTERS</span>
+          <span class="card-category" style="color: #390cd7">COMPUTERS</span>
           <p class="hero-right-text">
             Build your <br />own high <br />powered PC
           </p>
@@ -93,27 +125,587 @@
     <div class="footer">
       <ul>
         <li>
-          <i class="fa-solid fa-truck-fast"></i>
-          Free Shipping <br />
+          <i class="fa-solid fa-truck-fast" style="color: #ff4830;"></i>
+          Free Shipping
           <span class="subtext">Free Delivery</span>
         </li>
         <li>
-          <i class="fa-solid fa-rotate-left"></i>
-          Free Returns <br />
+          <i class="fa-solid fa-rotate-left" style="color: #ff4830;"></i>
+          Free Returns
           <span class="subtext">Hassle free returns</span>
         </li>
         <li>
-          <i class="fa-solid fa-lock"></i>
-          Secure Shopping <br />
+          <i class="fa-solid fa-lock" style="color: #ff4830;"></i>
+          Secure Shopping
           <span class="subtext">Best security features</span>
         </li>
         <li>
-          <i class="fa-solid fa-boxes-stacked"></i>
-          Unlimited Blocks <br />
+          <i class="fa-solid fa-boxes-stacked" style="color: #ff4830;"></i>
+          Unlimited Blocks
           <span class="subtext">Any content any page</span>
         </li>
       </ul>
     </div>
+    <!--Second Webpage-->
+    <div class="section-container">
+      <div class="section-header">
+        <h2>Why buy from us?</h2>
+        <div class="divider"></div>
+        <p class="section-desc">
+          Journal has been the best selling and most loved Opencart theme since
+          first launch in 2013. Tried and tested by over 20K people, Journal is
+          the best Opencart theme framework on the market today.
+          <a href="#">Learn more</a>
+        </p>
+      </div>
+
+      <div class="tabs-container">
+        <button class="tab-btn active">TOP CATEGORIES</button>
+        <button class="tab-btn">ELECTRONICS</button>
+        <button class="tab-btn">BEAUTY</button>
+        <button class="tab-btn">FASHION</button>
+      </div>
+
+      <div class="categories-grid">
+        <div class="grid-item">
+          <img
+            src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Fashion"
+          />
+          <div class="category-label">FASHION</div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=400&auto=format&fit=crop"
+            alt="Bags"
+          />
+          <div class="category-label">BAGS</div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="https://images.unsplash.com/photo-1763543712427-3f7af1ad0989?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Health & Beauty"
+          />
+          <div class="category-label">HEALTH & BEAUTY</div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=400&auto=format&fit=crop"
+            alt="Footwear"
+          />
+          <div class="category-label">FOOTWEAR</div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Home Decor"
+          />
+          <div class="category-label">HOME DECOR</div>
+        </div>
+      </div>
+      </div> 
+    </div>
+     <div class="scroll-indicators">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+       </div>
+
+    <div 
+      class="section-container"
+      style="background-color: #f9f9f9; padding-bottom: 50px"
+>
+      <div class="section-header">
+        <h2>Featured Products</h2>
+        <div class="divider"></div>
+        <p class="section-desc">
+          Display any products as tabs or accordions with optional grid or
+          carousel mode. Custom products per row per module and per breakpoint.
+          Each module can display products in either grid or list view with
+          different styles per module.
+        </p>
+      </div>
+
+      <div class="tabs-container">
+        <button class="tab-btn active">FEATURED</button>
+        <button class="tab-btn">LATEST</button>
+        <button class="tab-btn">BESTSELLERS</button>
+        <button class="tab-btn">SPECIALS</button>
+      </div>
+    </div>
+
+    <!--Third page-->
+ <div class="section-container" style="background-color: #f8f9fa;"> 
+  
+  <div class="product-grid">
+    
+    <div class="product-card">
+      <div class="card-image-box">
+        <div class="ribbon-left blue">CUSTOM LABELS</div>
+        <div class="badge-right red">-70%</div>
+        <div class="badge-right yellow second">HOT</div>
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=400&auto=format&fit=crop" alt="Headphones">
+      </div>
+      <div class="card-content">
+        <div class="brand-row">
+          <span class="brand">Ericksson</span>
+          <span class="model">Model 519</span>
+        </div>
+        <h3 class="product-title">Headphones</h3>
+        <div class="price-row">
+          <span class="current-price">$999.00</span>
+          <span class="old-price">$3,299.00</span>
+        </div>
+        <div class="action-row">
+          <input type="number" value="1" min="1" class="qty-input">
+          <button class="add-cart-btn"><i class="fa fa-shopping-cart"></i> ADD TO CART</button>
+          <button class="icon-btn"><i class="fa fa-heart"></i></button>
+          <button class="icon-btn"><i class="fa fa-exchange-alt"></i></button>
+        </div>
+      </div>
+      <div class="card-footer-row">
+        <div class="footer-item"><i class="fa fa-dollar-sign"></i> Buy Now</div>
+        <div class="footer-item"><i class="fa fa-question-circle"></i> Question</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-image-box">
+        <div class="ribbon-left red">2-3 DAYS</div>
+        <div class="badge-right orange">TOP BRAND</div>
+        <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=400&auto=format&fit=crop" alt="Shoes">
+      </div>
+      <div class="card-content">
+        <div class="brand-row">
+          <span class="brand">NY Fashion</span>
+          <span class="model">Model 206</span>
+        </div>
+        <h3 class="product-title">Women's Maria Pump</h3>
+        <div class="price-row">
+          <span class="current-price">$425.00</span>
+        </div>
+        <div class="action-row">
+          <input type="number" value="1"  min="1" class="qty-input">
+          <button class="add-cart-btn"><i class="fa fa-shopping-cart"></i> ADD TO CART</button>
+          <button class="icon-btn"><i class="fa fa-heart"></i></button>
+          <button class="icon-btn"><i class="fa fa-exchange-alt"></i></button>
+        </div>
+      </div>
+      <div class="card-footer-row">
+        <div class="footer-item"><i class="fa fa-dollar-sign"></i> Buy Now</div>
+        <div class="footer-item"><i class="fa fa-question-circle"></i> Question</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-image-box">
+        <div class="ribbon-left green">FREE</div>
+        <div class="ribbon-left red second-diag">PRE-ORDER</div>
+        <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=400&auto=format&fit=crop" alt="TV">
+      </div>
+      <div class="card-content">
+        <div class="brand-row">
+          <span class="brand">Ericksson</span>
+          <span class="model">Model 995</span>
+        </div>
+        <h3 class="product-title">Toshiba 5009 Smart TV</h3>
+        <div class="price-row">
+          <span class="current-price">$0.00</span>
+        </div>
+        <div class="action-row">
+          <input type="number" value="1" min="1" class="qty-input">
+          <button class="add-cart-btn"><i class="fa fa-shopping-cart"></i> ADD TO CART</button>
+          <button class="icon-btn"><i class="fa fa-heart"></i></button>
+          <button class="icon-btn"><i class="fa fa-exchange-alt"></i></button>
+        </div>
+      </div>
+      <div class="card-footer-row">
+        <div class="footer-item"><i class="fa fa-dollar-sign"></i> Buy Now</div>
+        <div class="footer-item"><i class="fa fa-question-circle"></i> Question</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-image-box">
+        <div class="ribbon-left red">PRE-ORDER</div>
+        <div class="badge-right yellow">HOT</div>
+        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=400&auto=format&fit=crop" alt="Camera">
+      </div>
+      <div class="card-content">
+        <div class="brand-row">
+          <span class="brand">Ericksson</span>
+          <span class="model">Model 994</span>
+        </div>
+        <h3 class="product-title">Leica Digital Camera</h3>
+        <div class="price-row">
+          <span class="current-price">$2,189.00</span>
+        </div>
+        <div class="action-row">
+          <input type="number" value="1" min="1" class="qty-input">
+          <button class="add-cart-btn"><i class="fa fa-shopping-cart"></i> ADD TO CART</button>
+          <button class="icon-btn"><i class="fa fa-heart"></i></button>
+          <button class="icon-btn"><i class="fa fa-exchange-alt"></i></button>
+        </div>
+      </div>
+      <div class="card-footer-row">
+        <div class="footer-item"><i class="fa fa-dollar-sign"></i> Buy Now</div>
+        <div class="footer-item"><i class="fa fa-question-circle"></i> Question</div>
+      </div>
+    </div>
+
+  </div>
+  </div> 
+
+  <div class="carousel-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  
+  <div style="margin-top: 40px; text-align: center;">
+    <button class="see-all-btn">SEE ALL PRODUCTS ➜</button>
+
+  </div>
+</div>
+<!--Fourth Page-->
+  <section class="fc-wrapper">
+  <h2 class="fc-title">Featured Category</h2>
+  <p class="fc-subtitle">
+    Easily create category based modules and display products from specific categories or brands only.
+  </p>
+
+  <div class="fc-content">
+    
+    <div class="fc-left-box">
+      <h3 class="fc-left-title">Fashion</h3>
+      <img src="https://images.unsplash.com/photo-1562594233-278b4b526831?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+      <ul class="fc-left-list">
+        <li>Accessories</li>
+        <li>Dresses</li>
+        <li>Pants</li>
+        <li>T-Shirts</li>
+      </ul>
+      <a href="#" class="fc-left-link">See all in Fashion</a>
+    </div>
+
+    
+    <div class="fc-slider-section">
+      <h3 class="fc-slider-title">New in Fashion</h3>
+
+      <div class="fc-slider-container">
+
+        <div class="fc-card">
+          <div class="fc-tags">
+            <span class="fc-tag fc-red">-23 DAYS</span>
+            <span class="fc-tag fc-blue">NEW</span>
+            <span class="fc-tag fc-yellow">HOT</span>
+          </div>
+          <img src="https://plus.unsplash.com/premium_photo-1661306458041-9d6969661197?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+          <h4 class="fc-card-title">Bodycorn Dress</h4>
+          <p class="fc-price">$399.00</p>
+          <button class="fc-cart-btn">Add to Cart</button>
+
+          <div class="fc-icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+
+         <div class="fc-card">
+          <div class="fc-tags">
+            <span class="fc-tag fc-red">-23 DAYS</span>
+            <span class="fc-tag fc-blue">NEW</span>
+            <span class="fc-tag fc-yellow">HOT</span>
+          </div>
+          <img src="https://plus.unsplash.com/premium_photo-1667238550990-63fb3d52df33?q=80&w=1109&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+          <h4 class="fc-card-title">Black Lace Dress</h4>
+          <p class="fc-price">$399.00</p>
+          <button class="fc-cart-btn">Add to Cart</button>
+
+          <div class="fc-icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+
+        <div class="fc-card">
+          <div class="fc-tags">
+            <span class="fc-tag fc-blue">NEW</span>
+            <span class="fc-tag fc-yellow">HOT</span>
+          </div>
+          <img src="https://images.unsplash.com/photo-1608542698200-3988a7df9114?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+          <h4 class="fc-card-title">Black vintage T-Shirt</h4>
+          <p class="fc-price">$589.00</p>
+          <button class="fc-cart-btn">Add to Cart</button>
+          <div class="fc-icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+
+        <div class="fc-card">
+          <div class="fc-tags">
+            <span class="fc-tag fc-orange">TOP BRAND</span>
+            <span class="fc-tag fc-blue">NEW</span>
+            <span class="fc-tag fc-yellow">HOT</span>
+          </div>
+          <img src="https://images.unsplash.com/photo-1521336575822-6da63fb45455?q=80&w=600" alt="">
+          <h4 class="fc-card-title">Jacob Turtleneck Sweater</h4>
+          <p class="fc-price">$369.00</p>
+          <button class="fc-cart-btn">Add to Cart</button>
+          <div class="fc-icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fc-brand-wrapper">
+  <h2 class="fc-brand-heading">Shop by Brand</h2>
+  <div class="fc-brand-line"></div>
+
+  <div class="fc-brand-scroll">
+    <div class="fc-brand-card"><img src="https://dummyimage.com/160x160/ffffff/000&text=Palm" /></div>
+    <div class="fc-brand-card"><img src="https://dummyimage.com/160x160/ffffff/000&text=Sony" /></div>
+    <div class="fc-brand-card"><img src="https://dummyimage.com/160x160/ffffff/000&text=New+York" /></div>
+    <div class="fc-brand-card"><img src="https://dummyimage.com/160x160/ffffff/000&text=Sunglass" /></div>
+    <div class="fc-brand-card"><img src="https://dummyimage.com/160x160/ffffff/000&text=HTC" /></div>
+  </div>
+</section>
+<!--5th web page-->
+  <section class="gm-section">
+  <h2 class="gm-title">Improved Gallery Module</h2>
+  <p class="gm-subtitle">
+    The Gallery module supports images, videos and can also act as banners that can point to any other page...
+  </p>
+
+  <div class="gm-gallery-row">
+    <img src="https://picsum.photos/100/100?1">
+    <img src="https://picsum.photos/100/100?2">
+    <img src="https://picsum.photos/100/100?3">
+    <img src="https://picsum.photos/100/100?4">
+    <img src="https://picsum.photos/100/100?5">
+    <img src="https://picsum.photos/100/100?6">
+    <img src="https://picsum.photos/100/100?7">
+    <img src="https://picsum.photos/100/100?8">
+  </div>
+</section>
+
+<section class="fb-section">
+  <h2 class="fb-title">From our Blog</h2>
+  <p class="fb-subtitle">
+    Journal comes with its own simple yet powerful blog. With the new advanced typography...
+  </p>
+
+  <div class="fb-tab-buttons">
+    <button class="fb-active">LATEST POSTS</button>
+    <button>MOST READ</button>
+  </div>
+
+  <div class="fb-card-container">
+
+  <div class="fb-card">
+    <img src="https://images.unsplash.com/photo-1589221475596-7133b597dc21?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    <div class="fb-meta">
+      <span><i class="fa fa-user"></i> admin</span>
+      <span><i class="fa fa-comments"></i> 38</span>
+      <span><i class="fa fa-eye"></i> 19340</span>
+    </div>
+    <h3>Journal Blog is Here</h3>
+    <p class="fb-text">
+      The Journal 3 blog has been greatly improved and it now comes with the most advanced set of typography tools,
+      including custom drop-cap support as well as optional newspaper-like fluid columns. You can break up the page
+      in up to 4 columns and change the configuration per breakpoint for the best article layout on any screen width.
+      The Journal blog is unmatched.
+    </p>
+    <a href="#" class="fb-readmore">Read More →</a>
+  </div>
+
+  <div class="fb-card">
+    <div class="fb-date"></div>
+    <img src="https://images.unsplash.com/photo-1732963574895-f4b6af2dec06?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    <div class="fb-meta">
+      <span><i class="fa fa-user"></i> admin</span>
+      <span><i class="fa fa-comments"></i> 47</span>
+      <span><i class="fa fa-eye"></i> 7341</span>
+    </div>
+    <h3>Best Leather Bags</h3>
+    <p class="fb-text">
+      Best Opencart theme options you can find in any theme! Decide for yourself by visiting one of our demo admin/user
+      passes: demo/demo. The Journal 3 blog has been improved and now it comes with the most advanced typography tools,
+      including drop-cap support and optional multi-column readability improvements.
+    </p>
+    <a href="#" class="fb-readmore">Read More →</a>
+  </div>
+
+  <div class="fb-card">
+    <div class="fb-date"></div>
+    <img src="https://media.istockphoto.com/id/913172354/photo/word-blog-of-color-wood.jpg?s=612x612&w=is&k=20&c=3Mb77uJgaVGUSuwBRENWF5YfuAvmP499oWqSxT1mLrQ=">
+    <div class="fb-meta">
+      <span><i class="fa fa-user"></i> admin</span>
+      <span><i class="fa fa-comments"></i> 77</span>
+      <span><i class="fa fa-eye"></i> 6264</span>
+    </div>
+    <h3>Another Blog Post</h3>
+    <p class="fb-text">
+      Write unlimited blog articles, or have someone write them for you with partial admin access. The Journal 3 blog has
+      been improved and it now comes with the most advanced typography tools, including custom drop-cap support, optional
+      columns, and adjustable layout control per resolution breakpoint.
+    </p>
+    <a href="#" class="fb-readmore">Read More →</a>
+  </div>
+
+</div>
+
+</section>
+
+<!--6th webpage-->
+  <section class="ts-section">
+  <h2 class="ts-title">What are people saying about us</h2>
+  <div class="ts-line"></div>
+
+  <div class="ts-slider">
+    <div class="ts-item">
+      <i class="fa-solid fa-quote-left ts-quote"></i>
+      <p class="ts-text">
+        I've purchased hundreds and hundreds of files over the past 7 years. But there is nothing close
+        to this support and professionalism. Very happy I got this theme! Thank you!
+      </p>
+      <h4 class="ts-author">- charlibaltimore</h4>
+    </div>
+
+    <div class="ts-item">
+      <i class="fa-solid fa-quote-left ts-quote"></i>
+      <p class="ts-text">
+        I am a web developer for many years I haven't seen anything clean coded like journal.
+        It makes my life so much easier. Thanks for the great work you have done.
+      </p>
+      <h4 class="ts-author">- chromebandit</h4>
+    </div>
+
+    <div class="ts-item">
+      <i class="fa-solid fa-quote-left ts-quote"></i>
+      <p class="ts-text">
+        Great toolkit for Opencart. As a base platform, Opencart can be a nightmare to modify. Journal takes away all the pain.
+      </p>
+      <h4 class="ts-author">- kellyhorne</h4>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MOST VIEWED SECTION ================= -->
+<section class="mv-section">
+  <h3 class="mv-title" style="color: lightgrey;">MOST VIEWED</h3>
+  <div class="mv-slider">
+    <div class="mv-card">
+      <img src="https://media.istockphoto.com/id/2155028560/photo/cheerful-girl-in-large-funny-party-glasses-sunglasses-isolated-on-yellow-background.jpg?s=1024x1024&w=is&k=20&c=Evv17tLAATR_k5TTD_wTHPI20axLOisUdKGKzMsdb04=" class="mv-img">
+      <p class="mv-product-title">Oversized Sunglasses</p>
+      <p class="mv-price">$397.00</p>
+      <div class="mv-icons">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-code-compare"></i>
+        <i class="fa-regular fa-eye"></i>
+      </div>
+    </div>
+
+    <div class="mv-card">
+      <img src="https://images.unsplash.com/photo-1624564039739-035817ba4098?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="mv-img">
+      <p class="mv-product-title">Headphones</p>
+      <p class="mv-price mv-discount">$999.00 <span>$1299.00</span></p>
+      <div class="mv-icons">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-code-compare"></i>
+        <i class="fa-regular fa-eye"></i>
+      </div>
+    </div>
+
+    <div class="mv-card">
+      <img src="https://images.unsplash.com/photo-1758612670207-0f62583a7e9c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="mv-img">
+      <p class="mv-product-title">Women's Maria Pump</p>
+      <p class="mv-price">$425.00</p>
+      <div class="mv-icons">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-code-compare"></i>
+        <i class="fa-regular fa-eye"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER SECTION ================= -->
+<footer class="ft-section">
+
+  <div class="ft-social">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-skype"></i>
+  </div>
+
+  <div class="ft-columns">
+    <div class="ft-col">
+      <h4>About Us</h4>
+      <p>About Us</p>
+      <p>Delivery</p>
+      <p>Privacy Policy</p>
+      <p>Terms & Conditions</p>
+      <p>Custom Links</p>
+    </div>
+
+    <div class="ft-col">
+      <h4>Customer Service</h4>
+      <p>Contact</p>
+      <p>Returns</p>
+      <p>Site Map</p>
+      <p>Brands</p>
+      <p>Unlimited Links</p>
+    </div>
+
+    <div class="ft-col">
+      <h4>My Account</h4>
+      <p>My Account</p>
+      <p>Order History</p>
+      <p>Newsletter</p>
+      <p>Gift Certificates</p>
+    </div>
+
+    <div class="ft-col ft-news">
+      <h4>Newsletter</h4>
+      <p>Stay up to date with news and promotions by signing up for our newsletter</p>
+      <div class="ft-news-box">
+        <input type="email" placeholder="Your email">
+        <button class="ft-send">Send</button>
+      </div>
+      <label class="ft-terms"><input type="checkbox"> I have read and agree to the Privacy Policy</label>
+    </div>
+  </div>
+
+<div class="ft-pay-wrapper">
+  <i class="fa-brands fa-cc-visa"></i>
+  <i class="fa-brands fa-cc-mastercard"></i>
+  <i class="fa-brands fa-cc-amex"></i>
+  <i class="fa-brands fa-cc-discover"></i>
+  <i class="fa-brands fa-cc-paypal"></i>
+  <i class="fa-brands fa-cc-stripe"></i>
+</div>
+
+  <p class="ft-copy">Copyright © 2014, Your Store, All Rights Reserved</p>
+</footer>
 
   </body>
 </html>
