@@ -1135,6 +1135,7 @@ body {
   padding: 50px 0;
   text-align: center;
   background-color: #f5f7fa;
+  min-width: 100vw;
 }
 
 .fc-title {
