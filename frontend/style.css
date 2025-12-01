@@ -1136,17 +1136,20 @@ body {
   text-align: center;
   background-color: #f5f7fa;
   min-width: 100vw;
+  
 }
 
 .fc-title {
     font-size: 32px;
   font-weight: 700;
   margin-bottom: 10px;
+  padding-left: 30px;
 }
 
 .fc-subtitle {
   color: #666;
   margin-bottom: 40px;
+    padding-left: 30px;
 }
 
 .fc-content {
